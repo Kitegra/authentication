@@ -27,7 +27,9 @@ def authenticate():
                         return True
                     else: 
                         print ("неверный токен")
-                        return True
+                else: 
+                    print ("неверный токен")
+
             else:
                 print('не верный логин или пароль. Попробуйте еще раз.')
 
